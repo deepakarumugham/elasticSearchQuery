@@ -6,8 +6,8 @@
 		"interval" : 1
 	},
 	"elasticsearch" :{
-    	"url" : "https://search-mictesting-l42tbrdzc3vssiruhegslxqv6y.ca-central-1.es.amazonaws.com",
-		"index" : "movies",
+    	"url" : "https://search-searchtesting-77xrfdxtxnvmmw5rathmintmq4.ca-central-1.es.amazonaws.com",
+		"index" : "data",
 		"top_searches_count" : 10
 	}
 }
