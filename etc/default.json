@@ -1,0 +1,13 @@
+{
+    "server": {
+        "port": 9900
+    },
+	"cache": {
+		"interval" : 1
+	},
+	"elasticsearch" :{
+    	"url" : "https://search-mictesting-l42tbrdzc3vssiruhegslxqv6y.ca-central-1.es.amazonaws.com",
+		"index" : "movies",
+		"top_searches_count" : 10
+	}
+}
