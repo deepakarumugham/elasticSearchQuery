@@ -17,10 +17,10 @@ router.setRoutes(app);
 
 function start(callback) {
     function startServer(){
-        logger.info("Starting ESQ server");
+        console.log("Starting ESQ server");
 		process.title = "ESQ";
 		var server = app.listen(LISTEN_PORT, function() {
-            logger.info('Listening on port %d ...', LISTEN_PORT);
+            console.log('Listening on port %d ...', LISTEN_PORT);
 			
 			//Updating the cache every <CACHE_UPDATE_INTERVAL> minutes.
 			//setInterval(cacheUpdater.cache.populateTopTrendingSearches,CACHE_UPDATE_INTERVAL*60*1000); 
