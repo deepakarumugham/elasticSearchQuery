@@ -1,2 +1,3 @@
+kill $(ps aux | grep 'ESQ' | awk '{print $2}')
 export NODE_CONFIG_DIR=./etc
 node server.js &
