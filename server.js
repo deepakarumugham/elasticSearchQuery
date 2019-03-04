@@ -13,6 +13,7 @@ const cors = require("cors");
 
 // *************** Application starting point ****************//
 var app = express();
+app.use(cors());
 router.setRoutes(app);
 
 
@@ -30,7 +31,6 @@ function start(callback) {
                 callback(server);
             }
         });
-        server.use(cors());	
     }
 	startServer();
 }
