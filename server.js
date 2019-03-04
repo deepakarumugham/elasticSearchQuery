@@ -9,6 +9,7 @@ var CACHE_UPDATE_INTERVAL = config.cache.interval; //in minutes
 var express = require('express');
 var router = require('./lib/router.js');
 var cacheUpdater = require('./lib/cache_updater.js'); 
+const cors = require("cors");
 
 // *************** Application starting point ****************//
 var app = express();
@@ -28,7 +29,8 @@ function start(callback) {
 		    if (callback) {
                 callback(server);
             }
-        });	
+        });
+        server.use(cors());	
     }
 	startServer();
 }
