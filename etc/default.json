@@ -6,7 +6,7 @@
 		"interval" : 1
 	},
 	"elasticsearch" :{
-    	"url" : "https://search-esscale-fk6pyjlxcfkwr6uche7wvjsu4q.ca-central-1.es.amazonaws.com/",
+    	"url" : "https://search-newesscale-xebywzibgvuso3dvi7afnsivya.ca-central-1.es.amazonaws.com/",
 		"index" : "groups",
 		"top_searches_count" : 10
 	}
